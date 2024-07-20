@@ -5,7 +5,10 @@
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="sim" class="com.springcore.setterbaserddi.Viettel"></bean>
+
     <bean id="store" class="com.springcore.setterbaserddi.Store">
         <property name="sim" ref="sim"></property>
     </bean>
+
+
 </beans>
