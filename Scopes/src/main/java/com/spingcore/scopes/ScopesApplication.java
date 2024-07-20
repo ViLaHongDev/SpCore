@@ -10,7 +10,7 @@ public class ScopesApplication {
 
     public static void main(String[] args) {
 
-//            SpringApplication.run(ScopesApplication.class, args);
+        // SpringApplication.run(ScopesApplication.class, args);
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
         Person personA = (Person) context.getBean("personsingleton");
