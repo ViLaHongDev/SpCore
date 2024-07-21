@@ -33,5 +33,5 @@ public class AppConfig {
     //@Scope("websocket")
     // Mô tả : Một instance của bean sẽ được tạo mới cho mỗi phiên WebSocket
     // Sử dụng : Được sử dụng trong các ứng dụng web sử dụng WebSocket
-    
+
 }
