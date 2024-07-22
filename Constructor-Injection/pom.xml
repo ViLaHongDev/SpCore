@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springcore</groupId>
-    <artifactId>Constructor-Injection</artifactId>
+    <artifactId>Constructor-BaserdDI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Constructor-Injection</name>
     <description>Constructor-Injection</description>
