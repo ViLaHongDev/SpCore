@@ -1,4 +1,4 @@
-package com.springcore.componentscan;
+package com.springcore.componentscan.animal;
 
 import org.springframework.stereotype.Component;
 

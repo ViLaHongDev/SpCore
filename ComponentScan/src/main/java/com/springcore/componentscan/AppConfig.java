@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan
+@ComponentScan(basePackages = "com.springcore.componentscan.animal")
 public class AppConfig {
         @Bean
         public ExampleBean exampleBean(){
